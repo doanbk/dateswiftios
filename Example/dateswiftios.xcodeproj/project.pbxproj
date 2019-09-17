@@ -6,6 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4072129F2330C26800E9C86B /* dateswiftios */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 407212A02330C26800E9C86B /* Build configuration list for PBXAggregateTarget "dateswiftios" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = dateswiftios;
+			productName = dateswiftios;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1446D3EF6FB0208B1D0E0207 /* Pods_dateswiftios_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04211D960E615F98C99EAA73 /* Pods_dateswiftios_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -35,6 +48,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		407212A32330C7B100E9C86B /* dateswiftios */ = {
+			isa = PBXGroup;
+			children = (
+				407212A42330C7C100E9C86B /* Classes */,
+			);
+			path = dateswiftios;
+			sourceTree = "<group>";
+		};
+		407212A42330C7C100E9C86B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		43297B792131B76B1361FEC7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +83,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				407212A32330C7B100E9C86B /* dateswiftios */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -130,6 +159,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					4072129F2330C26800E9C86B = {
+						CreatedOnToolsVersion = 10.3;
+						DevelopmentTeam = 8C3MHNK2HY;
+						ProvisioningStyle = Automatic;
+					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -152,6 +186,7 @@
 			projectRoot = "";
 			targets = (
 				607FACE41AFB9204008FA782 /* dateswiftios_Tests */,
+				4072129F2330C26800E9C86B /* dateswiftios */,
 			);
 		};
 /* End PBXProject section */
@@ -225,6 +260,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		407212A12330C26800E9C86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C3MHNK2HY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		407212A22330C26800E9C86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C3MHNK2HY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -367,6 +420,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		407212A02330C26800E9C86B /* Build configuration list for PBXAggregateTarget "dateswiftios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407212A12330C26800E9C86B /* Debug */,
+				407212A22330C26800E9C86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "dateswiftios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
