@@ -1,0 +1,16 @@
+PODS:
+  - dateswiftios (0.1.0)
+
+DEPENDENCIES:
+  - dateswiftios (from `../`)
+
+EXTERNAL SOURCES:
+  dateswiftios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dateswiftios: 0a5676f02db528c6547a19bff34b5674f2d94d03
+
+PODFILE CHECKSUM: b6fffad87a3908be85c0530c6612b464a4800a87
+
+COCOAPODS: 1.6.1

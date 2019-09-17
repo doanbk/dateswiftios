@@ -1,0 +1,6 @@
+framework module dateswiftios {
+  umbrella header "dateswiftios-umbrella.h"
+
+  export *
+  module * { export * }
+}

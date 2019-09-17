@@ -1,0 +1,6 @@
+framework module Pods_dateswiftios_Tests {
+  umbrella header "Pods-dateswiftios_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

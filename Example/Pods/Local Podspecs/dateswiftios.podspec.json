@@ -1,0 +1,22 @@
+{
+  "name": "dateswiftios",
+  "version": "0.1.0",
+  "summary": "A short description of dateswiftios.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/doanbk/dateswiftios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "doanbk": "doannguyenhong@tcom.vn"
+  },
+  "source": {
+    "git": "https://github.com/doanbk/dateswiftios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "dateswiftios/Classes/**/*"
+}
